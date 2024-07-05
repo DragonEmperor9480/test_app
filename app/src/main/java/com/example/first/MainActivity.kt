@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             val edtinfo = edt.text.toString()
             Log.i("This is text from EditText",edtinfo)
+            txtv.text = edtinfo
 
 
         }
