@@ -11,7 +11,7 @@ tools:context=".MainActivity">
     android:id="@+id/text"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Some Appication"
+    android:text="This is Activity 1"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintTop_toTopOf="parent"
@@ -27,23 +27,15 @@ tools:context=".MainActivity">
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello"
+        android:text="Go to activity 2"
         android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/edtxt"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        android:layout_marginTop="30dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:id="@+id/btn"
         />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginTop="30dp"
-        app:layout_constraintTop_toBottomOf="@+id/text"
-        android:hint="Hello write something"
-        android:id="@+id/edtxt"
-        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
